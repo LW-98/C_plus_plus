@@ -1,3 +1,5 @@
+# Text Adventure Game
+
 This is a simple text adventure game, where a 'map' (.json file) is read and then played.
 
 Commands (Command - Description):  
