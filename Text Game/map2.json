@@ -1,0 +1,112 @@
+{
+
+  "rooms":[
+
+  {
+
+    "id":"room1",
+
+    "desc":"There is a door to the east.",
+
+    "e":"room2",
+
+    "s":"",
+
+    "w":"",
+
+    "n":"",
+
+    "obj":["gun"]
+
+  },
+
+  {
+
+    "id":"room2",
+
+    "desc":"There is a door to the north and a door to the west.",
+
+    "e":"",
+
+    "s":"",
+
+    "w":"room1",
+
+    "n":"room3",
+
+    "obj":["bullet","apple"]
+
+  },
+
+  {
+
+    "id":"room3",
+
+    "desc":"There is a door to the north and a door to the south.",
+
+    "e":"",
+
+    "s":"room2",
+
+    "w":"",
+
+    "n":"room4",
+
+    "obj":["silver bullet"]
+
+  },
+
+  {
+
+    "id":"room4",
+
+    "desc":"",
+
+    "e":"",
+
+    "s":"room3",
+
+    "w":"",
+
+    "n":"",
+
+    "obj":[]
+
+  }
+
+  ],
+
+  "enemies":[
+
+  {
+
+    "id":"zombie",
+
+    "initialroom":"room3",
+
+    "killedby":["gun","bullet"]
+
+  },
+
+  {
+
+    "id":"werewolf",
+
+    "initialroom":"room4",
+
+    "killedby":["gun","silver bullet"]
+
+  }
+
+  ],
+
+  "player":{
+
+    "initialroom":"room1"
+
+  }
+
+}
+
+
+
