@@ -15,4 +15,5 @@ A pxtree is a tree-based data structure for storing a collection of strings. Eac
        |   |
       y,1 k,1 
 
-The count represents what, and how many, words are present in the tree. E.g. 'bank' is present because there is a 1 next to the last letter, k. 'bab' is not present.
+The count represents what, and how many, words are present in the tree. E.g. 'bank' is present because there is a 1 next to the last letter, k. 'bab' is not present.  
+Examples on how they can be used can be found in main.cpp.
